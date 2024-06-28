@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: red;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img{
+    max-width:70px;
+    max-height:90px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+.actions button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.hero {
+    background-image: url ('C:\Users\WINDOWS\OneDrive\Desktop\cov bg.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    
+    
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: palevioletred;
+    font-style: oblique;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: palevioletred;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    text-decoration: solid;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #f9f9f9;
+}
+
+.hero-buttons button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    border: none;
+    background-color: yellow;
+    color:black;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.features {
+    padding: 10px 20px;
+    text-align: center;
+    font-style: oblique;
+    font-style: italic;
+    font-size:x-large;
+    font-family: cursive;
+    background-color: black;
+    color: #f9f9f9;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid wheat;
+
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.card img {
+    max-width: 100%;
+    height: 320px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 25px;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.detailed-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    text-align: left;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: xx-large;
+    background-color: #000;
+}
+
+
+
+.button {
+    padding: 20px 40px;
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.button.detailed {
+    padding: 20px 40px;
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: black;
+    color: #f9f9f9;
+    border-top: 1px double #ccc;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.contact-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.contact-item {
+    width: 30%;
+    text-align: center;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.newsletter {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.newsletter p {
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter .consent-text {
+    font-size: 12px;
+    color: #666;
+}
+
+.explore, .connect, .follow-us {
+    flex: 1 1 20%;
+    margin: 10px;
+}
+
+.explore h3, .connect h3, .follow-us h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.explore ul, .connect ul, .follow-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.explore li, .connect li, .follow-us li {
+    margin: 5px 0;
+}
+
+.explore a, .connect a, .follow-us a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.footer-bottom li {
+    margin-left: 10px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #333;
+}
